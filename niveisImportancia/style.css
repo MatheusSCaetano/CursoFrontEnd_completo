@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+
+.D2 h1{  /* Nível de importância maior nessa tag para o texto específico dessa class*/
+    color: blue;
+}
+body h1{
+    /* color: green; /* Nesse caso eu mudo as cores do body, mas prevalece a específica da class */
+    /* color: green!important; -> Prevalece sobre todas as outras, reseta os níveis de importância */ 
+    color: green;
+}
+body > .D2 h1{
+    color: red; /* Este prevalece sobre a específica da class, porque também emgloba o que a abrange*/
+    
+}
