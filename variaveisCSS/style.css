@@ -1,0 +1,8 @@
+:root{
+    --corpadrao:blue;
+    --cordefundopadrao:red;
+}
+div{
+    background-color: var(--cordefundopadrao);
+    color: var(--corpadrao);
+}

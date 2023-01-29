@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    /*Declarando configurações da minha div*/
+    width: 50%;
+    height: 200px;
+    background-color: aqua; 
+}
+/* O media screen, nesse caso, vai adaptar o width da minha div quando o a página chegar a 500px*/
+@media screen and (max-width: 500px){ 
+
+    .box{width: 100%}; 
+}  
+  
